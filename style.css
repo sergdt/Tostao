@@ -2,24 +2,103 @@
 
 body {
     margin: 0px;
-    font-family: 'Gotham Narrow Medium', sans-serif;
+    font-family: 'Gotham Narrow Medium', sans-serif, 'Gotham-Bold';
     font-size: 16px;
     text-rendering: optimizeLegibility;
+    text-align: left;
 }
 
 .container {
     width: 924px;
     margin: 0 auto;
-    padding: 30px 40px;
+    padding: 15px;
 }
+
+h1, h2, h3 {
+    text-align: center;
+    font-family: 'Gotham-Bold';
+    color: #000;
+    font-size: 2rem;
+}
+
+/* Hero */
+
+.hero {
+    text-align: center;
+}
+
+/* Header */
+
+header nav {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon {
+    position: absolute;
+    top: 15px;
+    font-size:36px;
+}
+
+.icon-fb {
+    position: absolute;
+    top: 15px;
+    right: 300px;
+    font-size: 36px;
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+    display: block;
+    line-height: 141px;
+    margin-top: -40px;
+    
+
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 0 5px;
+    
+    
+}
+
+header nav ul li a {
+    text-decoration: none;
+    font-weight: 100;
+    color: #000;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+    color: #CF8B0D;
+}
+
+.icons-social {
+
+    position: absolute;
+    float: right;
+    padding-left: 924px;
+}
+
+
+
+ 
+
+
+
+
 
 
 /* Typo */
 
 
-/* Header */
 
-/* Hero */
+
+
 
 /* Content */
 
