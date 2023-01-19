@@ -1,23 +1,30 @@
+/* General */
+
 body {
     margin: 0px;
     font-family: 'Gotham Narrow Medium', sans-serif;
+    font-size: 16px;
+    text-rendering: optimizeLegibility;
 }
 
-.navbar {
-    padding: 20px;
-}
-
-.navbar-top img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.container {
+    width: 924px;
+    margin: 0 auto;
+    padding: 30px 40px;
 }
 
 
+/* Typo */
 
-ul {
-    display: inline;
-    list-style-type: none;
-    text-align: center;
-    width: auto;
-}
+
+/* Header */
+
+/* Hero */
+
+/* Content */
+
+/* Informese aquí */
+
+/* Footer */
+
+
